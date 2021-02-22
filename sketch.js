@@ -1,6 +1,5 @@
 let leftscore = 0;
 let rightscore = 0;
-let img;
 let isPause = false;
 let started = false;
 

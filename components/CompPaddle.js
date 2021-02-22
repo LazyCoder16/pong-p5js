@@ -8,10 +8,10 @@ class CompPaddle {
     }
 
     update(ball_y) {
-        if(ball_y < this.y){
+        if(ball_y < this.y-this.h/2){
             this.y -= this.speed;
         }
-        else if(ball_y > this.y){
+        else if(ball_y > this.y+this.h/2){
             this.y += this.speed;
         }
         else {
