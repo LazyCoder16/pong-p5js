@@ -12,8 +12,8 @@ class Ball{
     reset() {
         this.x = width / 2;
         this.y = height / 2;
-        this.xspeed = 5 * Math.cos(random(-PI/4, PI/4));
-        this.yspeed = 5 * Math.sin(random(-PI/4, PI/4));
+        this.xspeed = 5 * Math.cos(random(-PI/5, PI/5));
+        this.yspeed = 5 * Math.sin(random(-PI/5, PI/5));
 
         //serve to different player randomly
         if (random(1) < 0.5) {

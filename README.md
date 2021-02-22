@@ -16,3 +16,7 @@ Here is a screenshot of the app:
 `components/CompPaddle.js` The component for the AI paddle  
 `components/HumanPaddle.js` The component for the human paddle  
 `components/Pause.js` The component for the pause button
+
+## External links
+
+Ball bounce physics: [https://gamedev.stackexchange.com/questions/4253/in-pong-how-do-you-calculate-the-balls-direction-when-it-bounces-off-the-paddl](https://gamedev.stackexchange.com/questions/4253/in-pong-how-do-you-calculate-the-balls-direction-when-it-bounces-off-the-paddl)
